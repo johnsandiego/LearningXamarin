@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage Padding="0,20,0,0"
+               xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BangorSavingsApp.GridPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" BackgroundColor="Silver" Text="Label 1"/>
+        <Label Grid.Row="0" Grid.Column="1" BackgroundColor="Silver" Text="Label 2"/>
+        <Label Grid.Row="1" Grid.Column="0" BackgroundColor="Silver" Text="Label 3"/>
+        <Label Grid.Row="1" Grid.Column="1" BackgroundColor="Silver" Text="Label 4"/>
+        <Label Grid.Row="2" Grid.ColumnSpan="3" BackgroundColor="Silver" Text="Column Span"/>
+        <Label Grid.Column="2" Grid.RowSpan="3" BackgroundColor="Silver" Text="Row Span"/>
+    </Grid>
+</ContentPage>
